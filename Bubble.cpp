@@ -1,7 +1,8 @@
-//bubble sort
+//bubble sort algo
 #include <bits/stdc++.h>
 using namespace std;
 
+//function for bubble sort
 void bub(vector<int> a)
 {
     bool swapped;
@@ -26,6 +27,8 @@ void bub(vector<int> a)
         cout<<x<<" ";
     return ;
 }
+
+//main function
 int main()
 {
     vector<int> a;
@@ -38,6 +41,7 @@ int main()
             break;
     }
     
+    //calling the function with parameter 'a'
     bub(a);
     return 0;
 }
